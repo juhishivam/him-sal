@@ -1,12 +1,12 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
-import image1 from '../images/klc2.jpg'
-import image2 from '../images/graph.jpg'
-import image3 from '../images/taxes.jpg'
+import image1 from '../images/frame1.jpg'
+import image2 from '../images/acc1.jpg'
+import image3 from '../images/tax1.jpg'
 
  const CarouselContainer = () => {
     return (
-        <Carousel controls={false} fade={true} pause={false}>
+        <Carousel controls={false} fade={true} pause={false} className="carosole">
         <Carousel.Item interval={2000}>
           <img
             className="d-block imgcarosel"
@@ -14,7 +14,7 @@ import image3 from '../images/taxes.jpg'
             alt="First slide"
           />
           <Carousel.Caption className="textC" >
-            <h3 className="textcar">Grow Yourself with Us</h3>
+            <h3 className="textcar" >Grow Yourself with Us</h3>
             <p className="paracar"> To grow yourself, you must first discover yourself</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -24,9 +24,9 @@ import image3 from '../images/taxes.jpg'
             src={image2}
             alt="Second slide"
           />
-          <Carousel.Caption>
-            <h3 className="textcar">Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <Carousel.Caption className="textC">
+            <h3 className="textcar">Start My Business</h3>
+            <p className="paracar">HimSal is serving as a platform to enhance strategic cooperation and develop synergies</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={2000}>
@@ -35,9 +35,9 @@ import image3 from '../images/taxes.jpg'
             src={image3}
             alt="Third slide"
           />
-          <Carousel.Caption>
-            <h3 className="textcar">Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <Carousel.Caption className="textC">
+            <h3 className="textcar">(GST Registration) India</h3>
+            <p className="paracar"> Mandatory for manufacturer, trader and service provider in India.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

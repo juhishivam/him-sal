@@ -3,7 +3,8 @@ import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
 import Home from './MyComponents/Home'
-import Contact from './MyComponents/Contact';
+// import Contact from './MyComponents/Contact';
+import Contact from './MyComponents/contactus';
 import About from './MyComponents/About';
 import Navbar from './MyComponents/Navbar'
 import { Switch, Route, Redirect } from 'react-router-dom';

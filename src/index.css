@@ -21,9 +21,10 @@ code {
 }
 
 .navbar{
-  background-color: #fff !important;
+  background-color: rgb(46, 43, 43) !important;
   
 }
+
 .navbar a{
   font-size: 1.3rem;
   text-transform: capitalize;
@@ -31,6 +32,7 @@ code {
 .navbar-nav{
   margin-left: auto !important;
 }
+
 .navbar-brand{
   margin-left: 5rem;
   font-size: 2rem !important;
@@ -41,7 +43,8 @@ code {
   border-bottom: 1px solid #565387;
 }
 .navbar a:hover{
-  color: #3498db !important;
+  color: #e2c41a !important;
+  transition: 0.5s ease;
 }
 @media (max-width: 991px){
   .navbar-brand {
@@ -58,8 +61,8 @@ code {
 .home2{
   vertical-align: baseline;
   width: 100% ;
-  background: url("/src/images/homes.jpg") transparent;
-  height: 450px;
+  background: url("/src/images/team2.jpg") transparent;
+  height: 350px;
   background-attachment: fixed;
  
  
@@ -71,7 +74,7 @@ code {
   width: 400px;
   justify-content: center;
   margin: 0 auto;
-  color: #fff;
+  color: rgb(245, 247, 252);
 }
 .home__text h1{
  font-size: 30px;
@@ -142,20 +145,21 @@ code {
   width: 230vh;
 }
 .textC{
-  margin-bottom: 15rem;
+  margin-bottom: 10rem;
   
 }
 .textcar{
-  color: rgba(223, 3, 3, 0.946);
+  color: rgba(59, 32, 32, 0.946);
   
   font-weight: 900;
   font-size: 40px;
 }
 .paracar{
-  color: rgba(220, 45, 45, 0.946);
-  font-weight: 800;
+  color: rgba(244, 242, 247, 0.946);
+  font-weight: 700;
   font-size: 20px;
 }
+
 /* Start Testimonial */
 .testimonial .slick-arrow.slick-prev,
 .testimonial .slick-arrow.slick-next

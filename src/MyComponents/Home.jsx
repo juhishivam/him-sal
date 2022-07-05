@@ -31,7 +31,7 @@ const Home = () => {
                 <div className="container">
                     <div className="home__text">
                         <div>
-                            <h1>Feel Free to Contact Us</h1>
+                            <h1><span style={{color:'darkblue'}}>Feel Free </span>to Contact Us</h1>
                             <div className="home2__btn">
                                 <NavLink to="/contact" className="btn btn-outline-primary rounded-pill startbutton">Contact Us</NavLink>
                             </div>

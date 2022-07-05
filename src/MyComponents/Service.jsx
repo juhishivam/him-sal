@@ -11,7 +11,7 @@ const Service = () => {
             </div>
             
             <div className="ourservice1">
-                <p className="text-center text-service">Ryan is focused on your overall tax performance—providing innovative solutions to the underlying causes <br/> 
+                <p className="text-center text-service">HimSal is focused on your overall tax performance—providing innovative solutions to the underlying causes <br/> 
                 of the errors we identify—and creating greater opportunities to measure and improve your efficiency, develop a more<br/> strategic approach to tax, and deliver outstanding value to your shareholders.</p>
             </div>
 
