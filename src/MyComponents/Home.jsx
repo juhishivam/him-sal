@@ -18,7 +18,8 @@ const Home = () => {
                             <NavLink to="/service" className="btn btn-outline-primary rounded-pill startbutton">READ MORE</NavLink>
                         </div>
                     </div>
-                    <div className="col-5 homeimg">
+                    {/* <div className="col-6 homeimg"> */}
+                    <div className="col-6">
                             <img src={web} className="img-fluid animated header-img order-1 order-lg-2" alt="web" />
                     </div>
 
