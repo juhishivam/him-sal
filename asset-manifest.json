@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/him-sal/static/css/main.603da473.chunk.css",
+    "main.js": "/him-sal/static/js/main.2cc9c537.chunk.js",
+    "main.js.map": "/him-sal/static/js/main.2cc9c537.chunk.js.map",
+    "runtime-main.js": "/him-sal/static/js/runtime-main.d24397da.js",
+    "runtime-main.js.map": "/him-sal/static/js/runtime-main.d24397da.js.map",
+    "static/css/2.3720443a.chunk.css": "/him-sal/static/css/2.3720443a.chunk.css",
+    "static/js/2.41fed7f1.chunk.js": "/him-sal/static/js/2.41fed7f1.chunk.js",
+    "static/js/2.41fed7f1.chunk.js.map": "/him-sal/static/js/2.41fed7f1.chunk.js.map",
+    "static/js/3.773583c3.chunk.js": "/him-sal/static/js/3.773583c3.chunk.js",
+    "static/js/3.773583c3.chunk.js.map": "/him-sal/static/js/3.773583c3.chunk.js.map",
+    "index.html": "/him-sal/index.html",
+    "static/css/2.3720443a.chunk.css.map": "/him-sal/static/css/2.3720443a.chunk.css.map",
+    "static/css/main.603da473.chunk.css.map": "/him-sal/static/css/main.603da473.chunk.css.map",
+    "static/js/2.41fed7f1.chunk.js.LICENSE.txt": "/him-sal/static/js/2.41fed7f1.chunk.js.LICENSE.txt",
+    "static/media/Tax.19a499ac.png": "/him-sal/static/media/Tax.19a499ac.png",
+    "static/media/index.css": "/him-sal/static/media/team2.9b21daab.jpg",
+    "static/media/acc1.d2c2692d.jpg": "/him-sal/static/media/acc1.d2c2692d.jpg",
+    "static/media/frame1.69dd1168.jpg": "/him-sal/static/media/frame1.69dd1168.jpg",
+    "static/media/gst.a67a4e03.png": "/him-sal/static/media/gst.a67a4e03.png",
+    "static/media/hands-1.f2c4f64a.png": "/him-sal/static/media/hands-1.f2c4f64a.png",
+    "static/media/hands-2.e518aaa8.jpg": "/him-sal/static/media/hands-2.e518aaa8.jpg",
+    "static/media/loan.926b0545.png": "/him-sal/static/media/loan.926b0545.png",
+    "static/media/people.26e0db75.png": "/him-sal/static/media/people.26e0db75.png",
+    "static/media/ram.19330eef.jpg": "/him-sal/static/media/ram.19330eef.jpg",
+    "static/media/slick-theme.css": "/him-sal/static/media/slick.c94f7671.ttf",
+    "static/media/tax1.208bb7b8.jpg": "/him-sal/static/media/tax1.208bb7b8.jpg",
+    "static/media/writing.57e871c0.png": "/him-sal/static/media/writing.57e871c0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d24397da.js",
+    "static/css/2.3720443a.chunk.css",
+    "static/js/2.41fed7f1.chunk.js",
+    "static/css/main.603da473.chunk.css",
+    "static/js/main.2cc9c537.chunk.js"
+  ]
+}
