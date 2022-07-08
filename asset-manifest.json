@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/him-sal/static/css/main.603da473.chunk.css",
-    "main.js": "/him-sal/static/js/main.15925972.chunk.js",
-    "main.js.map": "/him-sal/static/js/main.15925972.chunk.js.map",
-    "runtime-main.js": "/him-sal/static/js/runtime-main.d24397da.js",
-    "runtime-main.js.map": "/him-sal/static/js/runtime-main.d24397da.js.map",
-    "static/css/2.3720443a.chunk.css": "/him-sal/static/css/2.3720443a.chunk.css",
-    "static/js/2.41fed7f1.chunk.js": "/him-sal/static/js/2.41fed7f1.chunk.js",
-    "static/js/2.41fed7f1.chunk.js.map": "/him-sal/static/js/2.41fed7f1.chunk.js.map",
-    "static/js/3.773583c3.chunk.js": "/him-sal/static/js/3.773583c3.chunk.js",
-    "static/js/3.773583c3.chunk.js.map": "/him-sal/static/js/3.773583c3.chunk.js.map",
+    "main.css": "/him-sal/static/css/main.39e11999.chunk.css",
+    "main.js": "/him-sal/static/js/main.caaba3b7.chunk.js",
+    "main.js.map": "/him-sal/static/js/main.caaba3b7.chunk.js.map",
+    "runtime-main.js": "/him-sal/static/js/runtime-main.b842541e.js",
+    "runtime-main.js.map": "/him-sal/static/js/runtime-main.b842541e.js.map",
+    "static/css/2.8383f0cf.chunk.css": "/him-sal/static/css/2.8383f0cf.chunk.css",
+    "static/js/2.0c05bab4.chunk.js": "/him-sal/static/js/2.0c05bab4.chunk.js",
+    "static/js/2.0c05bab4.chunk.js.map": "/him-sal/static/js/2.0c05bab4.chunk.js.map",
+    "static/js/3.4e0cb448.chunk.js": "/him-sal/static/js/3.4e0cb448.chunk.js",
+    "static/js/3.4e0cb448.chunk.js.map": "/him-sal/static/js/3.4e0cb448.chunk.js.map",
     "index.html": "/him-sal/index.html",
-    "static/css/2.3720443a.chunk.css.map": "/him-sal/static/css/2.3720443a.chunk.css.map",
-    "static/css/main.603da473.chunk.css.map": "/him-sal/static/css/main.603da473.chunk.css.map",
-    "static/js/2.41fed7f1.chunk.js.LICENSE.txt": "/him-sal/static/js/2.41fed7f1.chunk.js.LICENSE.txt",
+    "static/css/2.8383f0cf.chunk.css.map": "/him-sal/static/css/2.8383f0cf.chunk.css.map",
+    "static/css/main.39e11999.chunk.css.map": "/him-sal/static/css/main.39e11999.chunk.css.map",
+    "static/js/2.0c05bab4.chunk.js.LICENSE.txt": "/him-sal/static/js/2.0c05bab4.chunk.js.LICENSE.txt",
     "static/media/Tax.19a499ac.png": "/him-sal/static/media/Tax.19a499ac.png",
     "static/media/index.css": "/him-sal/static/media/team2.9b21daab.jpg",
     "static/media/acc1.d2c2692d.jpg": "/him-sal/static/media/acc1.d2c2692d.jpg",
@@ -29,10 +29,10 @@
     "static/media/writing.57e871c0.png": "/him-sal/static/media/writing.57e871c0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d24397da.js",
-    "static/css/2.3720443a.chunk.css",
-    "static/js/2.41fed7f1.chunk.js",
-    "static/css/main.603da473.chunk.css",
-    "static/js/main.15925972.chunk.js"
+    "static/js/runtime-main.b842541e.js",
+    "static/css/2.8383f0cf.chunk.css",
+    "static/js/2.0c05bab4.chunk.js",
+    "static/css/main.39e11999.chunk.css",
+    "static/js/main.caaba3b7.chunk.js"
   ]
 }
