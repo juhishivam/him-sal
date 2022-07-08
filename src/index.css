@@ -91,17 +91,78 @@ code {
   font-size: 2.3rem !important;
   margin-top: 7rem;
   margin-left: 5rem;
+  animation-name: moveRight;
+  animation-duration: 0.7s;
 }
 .head-line2{
+  animation-name: moveLeft;
+  animation-duration: 1s;
   font-size: 1.5rem !important;
+  margin-left: 5rem;
+}
+.head-line3{
+  animation-name: moveRight;
+  animation-duration: 1.3s;
+  font-size: 1.5rem !important;
+  margin-left: 5rem;
+}
+.text{
   margin-left: 5rem;
 }
 #header .startbutton{
   transition: 0.5s;
   margin-left: 5rem;
+  position: relative;
+  transform: translateZ(0);
+  animation-name: moveUp;
+  animation-duration: 1s;
+  cursor: pointer;
 }
-#header .startbutton:hover{
+#header .startbutton::before{
+  border-radius: 70%;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+transform: scaleX(0);
+transition: 300ms ease-out;
+}
+#header .startbutton:hover::before{
   background: #3498db;
+  transform: scaleX(1);
+}
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 .brand-name{
   color: darkcyan;
@@ -241,6 +302,15 @@ background-attachment: fixed;
   padding: 10px;
  
 }
+.highlight{
+  display: inline-block;
+    height: inherit;
+    background-image: url('./images/svgimg.svg');
+    background-position: 0 3.3rem;
+    background-repeat: no-repeat;
+    line-height: 64px;
+
+}
 /* why us */
 .clients{
 width: 100%;
@@ -291,6 +361,10 @@ margin-bottom: 5rem;
 .contact{
   margin-top: 5rem;
 }
+#contact .btn {
+  width: 40px;
+}
+
 /* Footer */
 .footer{
 width: 100%;

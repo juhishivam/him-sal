@@ -15,18 +15,20 @@ const Contact = () => {
         backgroundSize:'cover'
         }}>
             <h1 style={{marginTop:'25px', marginLeft:'180px'}}>Contact Form</h1>
-            <form className="row" style={{margin:"25px 85px 75px 100px"}} onSubmit={sendEmail}>
-                <label>Full Name</label>
-                <input type="text" name="name" className="form-control"/>
+            <form  className="row" style={{margin:"25px 85px 75px 100px"}} onSubmit={sendEmail}>
+                <label >Full Name</label>
+                <input placeholder='Full Name' type="text" name="name" className="form-control"/>
                 <label>Email</label>
-                <input type="email" name="email" className="form-control"/>
+                <input placeholder='Your Email' type="email" name="email" className="form-control"/>
                 <label>Mobile Number</label>
-                <input type="text" name="mobile" className="form-control"/>
+                <input placeholder='Your Mobile num...' type="text" name="mobile" className="form-control"/>
                 <label>Message</label>
-                <input type="text" name='message' rows='4'/>
-                <input type="submit" value="Send" className="form-control btn btn-success"
-                 style={{marginTop:"30px"}}
+                <input placeholder='Reason For Contacting' type="text" name='message' rows='4' className='form-control'/>
+                <input  type="submit" value="Send" className="form-control  btn btn-success"
+                 style={{marginTop:"20px",width:165,marginLeft:"120px"}}
+                 
                 />
+                
             </form>
         </div>
     )

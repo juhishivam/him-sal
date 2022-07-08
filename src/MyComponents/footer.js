@@ -1,5 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import HeadShake from 'react-reveal/HeadShake';
+import Pulse from 'react-reveal/Pulse';
+import Flash from 'react-reveal/Flash';
+import Spin from 'react-reveal/Spin';
+import RubberBand from 'react-reveal/RubberBand';
+import Shake from 'react-reveal/Shake';
+
 const Footer = () => {
   return (
     <>
@@ -17,8 +24,8 @@ const Footer = () => {
             </p>
            
               <div >
-                <a target="_blank" href="" style={{margin:'10px' , fontSize:"40px"}}>
-                  <i class="fa fa-facebook"></i>
+               <a target="_blank" href="" style={{margin:'10px' , fontSize:"40px"}}>
+               <HeadShake><i class="fa fa-facebook"></i></HeadShake>
                 </a>
               
               
@@ -26,12 +33,12 @@ const Footer = () => {
                   target="_blank"
                   href=""
                 >
-                  <i class="fa fa-instagram" style={{margin:'10px', fontSize:"40px"}}></i>
+                  <Pulse><i class="fa fa-instagram" style={{margin:'10px', fontSize:"40px"}}></i></Pulse>
                 </a>
               
               
                 <a target="_blank" href="">
-                  <i class="fa fa-whatsapp" style={{margin:'10px', fontSize:"40px"}}></i>
+                <Flash><i class="fa fa-whatsapp" style={{margin:'10px', fontSize:"40px"}}></i></Flash>
                 </a>
               
               
@@ -39,12 +46,12 @@ const Footer = () => {
                   target="_blank"
                   href=""
                 >
-                  <i class="fa fa-linkedin" style={{margin:'10px', fontSize:"40px"}}></i>
+                  <Shake><i class="fa fa-linkedin" style={{margin:'10px', fontSize:"40px"}}></i></Shake>
                 </a>
               
               
                 <a target="_blank" href="">
-                  <i class="fa fa-twitter" style={{margin:'10px', fontSize:"40px"}}></i>
+                <Spin><i class="fa fa-twitter" style={{margin:'10px', fontSize:"40px"}}></i></Spin>
                 </a>
               
               
@@ -52,9 +59,9 @@ const Footer = () => {
                   target="_blank"
                   href=""
                 >
-                  <i class="fa fa-google" style={{margin:'10px' , fontSize:"40px"}}></i>
+                 <RubberBand><i class="fa fa-google" style={{margin:'10px' , fontSize:"40px"}}></i></RubberBand> 
                 </a>
-              
+                
            </div>
           </div>
           <div

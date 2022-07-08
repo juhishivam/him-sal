@@ -3,6 +3,12 @@ import { Carousel } from 'react-bootstrap';
 import image1 from '../images/frame1.jpg'
 import image2 from '../images/acc1.jpg'
 import image3 from '../images/tax1.jpg'
+import Fade from 'react-reveal/Fade'
+import Jump from 'react-reveal/Jump'
+import Rotate from 'react-reveal/Rotate';
+import Zoom from 'react-reveal/Zoom';
+import Wobble from 'react-reveal/Wobble';
+
 
  const CarouselContainer = () => {
     return (
@@ -14,8 +20,8 @@ import image3 from '../images/tax1.jpg'
             alt="First slide"
           />
           <Carousel.Caption className="textC" >
-            <h3 className="textcar" >Grow Yourself with Us</h3>
-            <p className="paracar"> To grow yourself, you must first discover yourself</p>
+          <Jump><h3 className="textcar" >Grow Yourself with Us</h3></Jump>
+            <p className="paracar"> <Fade left>To grow yourself, you must first discover yourself</Fade></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={2000}>
@@ -25,8 +31,8 @@ import image3 from '../images/tax1.jpg'
             alt="Second slide"
           />
           <Carousel.Caption className="textC">
-            <h3 className="textcar">Start My Business</h3>
-            <p className="paracar">HimSal is serving as a platform to enhance strategic cooperation and develop synergies</p>
+            <h3 className="textcar"><Rotate>Start My Business</Rotate></h3>
+            <p className="paracar"><Fade bottom>HimSal is serving as a platform to enhance strategic cooperation and develop synergies</Fade></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={2000}>
@@ -36,8 +42,8 @@ import image3 from '../images/tax1.jpg'
             alt="Third slide"
           />
           <Carousel.Caption className="textC">
-            <h3 className="textcar">(GST Registration) India</h3>
-            <p className="paracar"> Mandatory for manufacturer, trader and service provider in India.</p>
+            <h3 className="textcar"><Wobble>(GST Registration) India</Wobble></h3>
+            <p className="paracar"><Zoom> Mandatory for manufacturer, trader and service provider in India.</Zoom></p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

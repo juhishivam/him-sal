@@ -27,6 +27,7 @@ const Service = () => {
                                             key={index}
                                             imgsrc={val.imgsrc}
                                             title={val.title}
+                                            details={val.details}
                                         />
                                     })
                                 }
