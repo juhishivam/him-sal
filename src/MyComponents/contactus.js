@@ -1,7 +1,13 @@
 import React from 'react';
 import emailjs from 'emailjs-com'
 const Contact = () => {
-    
+    function sendEmail(e){
+        e.preventDefault();
+        emailjs.sendForm("gmail","template_gaiux3o", e.target,"user_x0boh8Smwzx1UQcF9qcME").then(res =>{
+            console.log(res.text);
+        }).catch(err => console.log(err.text));
+        e.target.reset()
+    }
     return (
         <div className="container border" style={{marginTop:"150px",marginBottom:"150px", width:'50%',
         backgroundImage:`url('https://th.bing.com/th/id/OIP.8AESL__rKNk4q0NUsIuyPgHaF7?pid=ImgDet&rs=1')`,
